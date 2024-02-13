@@ -1,0 +1,106 @@
+{
+	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+	"blocks": [
+		{
+			"alignment": "left",
+			"segments": [
+				{
+					"foreground": "#009cff",
+					"leading_diamond": "<#ed1c24>\ue621</> ",
+					"style": "diamond",
+					"template": "{{ .Name }}",
+					"type": "shell"
+				},
+				{
+					"foreground": "#bababa",
+					"leading_diamond": "<#00c7fc> </><#ed1c24>\uf105</>",
+					"properties": {
+						"home_icon": "\uf7db ",
+						"style": "agnoster_full"
+					},
+					"style": "diamond",
+					"template": " {{ .Path }} ",
+					"type": "path"
+				},
+				{
+					"foreground": "#ffeb95",
+					"properties": {
+						"branch_icon": "\ue725 ",
+						"fetch_stash_count": true,
+						"fetch_status": true,
+						"fetch_upstream_icon": true,
+						"fetch_worktree_count": true
+					},
+					"style": "diamond",
+					"template": "<#ed1c24>\uf105</> {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} \u2502{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+					"type": "git"
+				}
+			],
+			"type": "prompt"
+		},
+		{
+			"alignment": "right",
+			"segments": [
+				{
+					"style": "diamond",
+					"foreground": "#a9ffb4",
+					"properties": {
+						"style": "roundrock",
+						"threshold": 0
+					},
+					"template": "{{ .FormattedMs }}",
+					"type": "executiontime"
+				},
+				{
+					"style": "diamond",
+					"foreground": "#03ccb1",
+					"properties": {
+						"display_mode": "always",
+						"python_icon": " <#ffbc03>\ue235</> "
+					},
+					"template": " <#ffffff>\uf6dc</> <#ffbc03>\ue235 </> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+					"type": "python"
+				},
+				{
+					"style": "diamond",
+					"foreground": "#009cff",
+					"properties": {
+						"display_mode": "always",
+						"npm_icon": " <#ed1c24>\ue5fa</> ",
+						"yarn_icon": " <#348cba>\uf61a</> "
+					},
+					"template": " <#ffffff>\uf6dc</> <#ed1c24>\ue718</> {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
+					"type": "node"
+				},
+				{
+					"style": "plain",
+					"foreground": "#ed1c24",
+					"template": " <#ed1c24>\ue621</>",
+					"type": "shell"
+				}
+			],
+			"type": "prompt"
+		},
+		{
+			"alignment": "left",
+			"newline": true,
+			"segments": [
+				{
+					"foreground": "#bababa",
+					"foreground_templates": [
+						"{{ if gt .Code 0 }}#ef5350{{ end }}"
+					],
+					"properties": {
+						"always_enabled": true
+					},
+					"style": "plain",
+					"template": "\u276f ",
+					"type": "exit"
+				}
+			],
+			"type": "prompt"
+		}
+	],
+	"osc99": true,
+	"version": 2
+}

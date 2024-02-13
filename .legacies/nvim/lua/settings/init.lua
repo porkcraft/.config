@@ -1,0 +1,6 @@
+require 'settings.plugins'
+require 'settings.options'
+require 'settings.autocommands'
+--require 'settings.colors'
+require 'settings.vimscripts'
+require 'settings.keymaps'

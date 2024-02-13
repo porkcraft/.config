@@ -1,0 +1,8 @@
+require 'plugs.lualine'
+require 'plugs.bufferline'
+require 'plugs.nvim-tree'
+require 'plugs.blankline'
+require 'plugs.nvim-autopairs'
+require 'plugs.which-key'
+require 'plugs.treesitter'
+require 'plugs.telescope'
