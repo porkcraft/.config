@@ -39,3 +39,17 @@ map("n", "<A-i>", "<cmd>BufferLineCyclePrev<CR>", opts) -- Go To Previous Buffer
 map("n", "<A-b>", "<cmd>BufferLinePick<CR>", opts) -- Pick Buffer With Character
 map("n", "<Leader>i", "<cmd>BufferLineCloseLeft<CR>", opts) -- Close every Buffers to left side
 map("n", "<Leader>o", "<cmd>BufferLineCloseRight<CR>", opts) -- Close every Buffers to right side
+
+-- Telescope --
+-- map("n", "fx", function()
+--   require("telescope").extensions.file_browser.file_browser({
+--     path = "%:p:h",
+--     cwd = telescope_buffer_dir(),
+--     respect_gitignore = false,
+--     hidden = true,
+--     grouped = true,
+--     previewer = false,
+--     initial_mode = "normal",
+--     layout_config = { height = 20, width = 70 },
+--   })
+-- end, opts)

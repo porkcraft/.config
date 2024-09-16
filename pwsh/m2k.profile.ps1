@@ -2,6 +2,7 @@
 Set-Location ~\.config
 
 #==== Prompt Config ====#
+[Console]::OutputEncoding = [Text.Encoding]::UTF8
 oh-my-posh init pwsh --config ~\.config\pwsh\m2k-slash.json | Invoke-Expression
 
 #==== Terminal-Icons & PSReadLine ====#

@@ -8,6 +8,15 @@ return {
     local actions = require("telescope.actions")
     local fb_actions = require("telescope").extensions.file_browser.actions
     --  ...
+    opts.defaults = {
+      mappings = {
+        n = {
+          ["q"] = actions.close,
+          ["<TAB>"] = actions.toggle_selection,
+          ["?"] = actions.which_key,
+        },
+      },
+    }
     opts.extensions = {
       file_browser = {
         theme = "dropdown",
@@ -16,8 +25,20 @@ return {
         mappings = {
           -- your custom insert mode mappings
           ["n"] = {
+            ["n"] = fb_actions.create,
+            ["q"] = actions.close,
+            ["r"] = fb_actions.rename,
+            ["d"] = fb_actions.remove,
+            ["x"] = fb_actions.move,
+            ["c"] = fb_actions.copy,
+            ["l"] = fb_actions.open,
+            ["e"] = fb_actions.goto_home_dir,
+            ["w"] = fb_actions.goto_cwd,
+            ["t"] = fb_actions.change_cwd,
+            ["f"] = fb_actions.toggle_browser,
+            ["b"] = fb_actions.toggle_hidden,
+            ["s"] = fb_actions.toggle_all,
             -- your custom normal mode mappings
-            ["N"] = fb_actions.create,
             ["h"] = fb_actions.goto_parent_dir,
             ["/"] = function()
               vim.cmd("startinsert")
