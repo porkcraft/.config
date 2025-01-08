@@ -1,0 +1,586 @@
+version: 7
+groups: []
+configSync:
+  parts: {}
+hotkeys:
+  toggle-window:
+    - Alt-\
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-C
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-Shift-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+    - Ctrl-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-bottom:
+    - Ctrl-Shift-D
+    - Alt-B
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Alt-L
+  pane-nav-down:
+    - Alt-J
+  pane-nav-up:
+    - Alt-K
+  pane-nav-left:
+    - Alt-H
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane:
+    - Alt-Shift-S
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+    - Alt-A
+  command-selector:
+    - Ctrl-Shift-P
+  split-right:
+    - Ctrl-Shift-S
+    - Alt-V
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: My Atom
+    foreground: '#cccccc'
+    background: '#222222'
+    cursor: '#d0d0d0'
+    colors:
+      - '#4db6ac'
+      - '#fd5ff1'
+      - '#87c38a'
+      - '#ffa726'
+      - '#00acc1'
+      - '#b9b6fc'
+      - '#85befd'
+      - '#e0e0e0'
+      - '#78909c'
+      - '#CB4B16'
+      - '#94fa36'
+      - '#ffb74d'
+      - '#96cbfe'
+      - '#b9b6fc'
+      - '#85befd'
+      - '#bdbdbd'
+  lightColorScheme:
+    name: Tabby Default Light
+    foreground: '#4d4d4c'
+    background: '#ffffff'
+    cursor: '#4d4d4c'
+    colors:
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+  customColorSchemes:
+    - name: Tabby Default
+      foreground: '#cacaca'
+      background: '#171717'
+      cursor: '#bbbbbb'
+      colors:
+        - '#000000'
+        - '#ae101b'
+        - '#b1e969'
+        - '#ebd99c'
+        - '#5da9f6'
+        - '#e86aff'
+        - '#82fff7'
+        - '#dedacf'
+        - '#313131'
+        - '#cb4b16'
+        - '#ddf88f'
+        - '#eee5b2'
+        - '#a5c7ff'
+        - '#ddaaff'
+        - '#b7fff9'
+        - '#ffffff'
+    - name: My Atom
+      foreground: '#cccccc'
+      background: '#222222'
+      cursor: '#d0d0d0'
+      colors:
+        - '#4db6ac'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffa726'
+        - '#00acc1'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#78909c'
+        - '#CB4B16'
+        - '#94fa36'
+        - '#ffb74d'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#bdbdbd'
+  font: JetBrainsMono NFM
+  fallbackFont: ''
+  profile: local:custom:pwsh:5aeec119-35a6-459c-ba24-6c05926d3f49
+  fontWeightBold: 600
+  minimumContrastRatio: 1
+  hideTabOptionsButton: true
+  showRecentProfiles: 0
+  autoOpen: false
+  showTabProfileIcon: true
+  hideTabIndex: true
+  fontWeight: 580
+  ligatures: true
+  drawBoldTextInBrightColors: false
+ssh:
+  knownHosts:
+    - host: 192.168.56.101
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 8kuhe3h/zSD0+g5VPyafYDYQVrCzHbdgOof/vYc+JHA=
+clickableLinks: {}
+accessibility:
+  animations: false
+appearance:
+  css: |-
+
+    app-root>.content .tab-bar {
+      background: #00000000 !important;
+      height: 32px;
+    }
+    .tabs-on-top .tab-bar > .btn-space {
+      background: #00000030 !important;
+    }
+    .tab-bar > .window-controls-spacer {
+      background: #00000030 !important;
+    }
+    .btn-group {
+      background: #00000030 !important;
+      border-radius: 0px !important;
+      margin-top: -3px;
+    }
+    app-root>.content .tab-bar>.tabs tab-header {
+      background: #00000030 !important;
+    }
+    app-root>.content .tab-bar>.tabs tab-header.active {
+      background: #00000000 !important;
+    }
+    tab-body {
+      background: #22222200 !important;
+    }
+    */{}
+
+    app-root.vibrant {
+      background: rgba(0,0,0,0.65) !important;
+    }
+
+    app-root>.content .tab-bar>.tabs tab-header .current-tab-indicator {
+      background: #ae101b !important;
+    }
+
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-button,
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-track-piece {
+      width: 0 !important;
+    }
+    tab-body div.content {
+      margin-right: 0px !important;
+    }
+    split-tab-spanner.h{
+      background: #35373a;
+      width: 1px !important;
+    }
+    split-tab-spanner.v{
+      background: #35373a;
+      height: 1px !important;
+    }
+    split-tab-spanner:hover,
+    split-tab-spanner:active {
+      background: #bababa !important;
+      background-clip: content-box !important;
+    }
+    .h[_nghost-dda-c90] {
+      margin-left: -1px !important;
+      margin-right: 0px !important;
+
+    .modal-content {
+      background: #1f1f1f !important;
+    }
+  tabsInFullscreen: true
+  vibrancyType: fluent
+  colorSchemeMode: auto
+  lastTabClosesWindow: true
+  vibrancy: true
+hacks:
+  enableFluentBackground: true
+  disableVibrancyWhileDragging: true
+  disableGPU: true
+providerBlacklist: []
+commandBlacklist: []
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+    type: ssh
+profileBlacklist:
+  - local:default
+  - local:powershell
+  - local:cmd
+  - socket:template
+  - serial:template
+  - serial:port-COM3
+  - ssh:template
+  - telnet:template
+  - local:clink
+  - local:git-bash
+profiles:
+  - type: local
+    options:
+      command: pwsh.exe
+      env:
+        WT_SESSION: 0
+      args: []
+      cwd: C:\Users\salai\.config\nvim
+    name: '  pwsh'
+    id: local:custom:pwsh:5aeec119-35a6-459c-ba24-6c05926d3f49
+    disableDynamicTitle: true
+    behaviorOnSessionEnd: close
+    icon: >-
+      <svg fill="#bababa" viewBox="0 0 32 32" version="1.1"
+      xmlns="http://www.w3.org/2000/svg" stroke="#bababa"><g
+      id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier"
+      stroke-linecap="round" stroke-linejoin="round"></g><g
+      id="SVGRepo_iconCarrier"> <title>powershell</title> <path d="M16.012
+      21.897c-0.004-0-0.009-0-0.014-0-0.637 0-1.153 0.516-1.153 1.154s0.516
+      1.154 1.153 1.154c0.005 0 0.010-0 0.015-0h5.539c0.003 0 0.007 0 0.011 0
+      0.637 0 1.153-0.516 1.153-1.153s-0.516-1.153-1.153-1.153c-0.004 0-0.008
+      0-0.011 0h0.001zM19.506 16.4c0.134-0.198 0.214-0.442 0.214-0.704
+      0-0.327-0.124-0.625-0.327-0.85l0.001
+      0.001-6.99-7.438c-0.239-0.227-0.562-0.367-0.918-0.367-0.736 0-1.333
+      0.597-1.333 1.333 0 0.326 0.117 0.625 0.311 0.856l-0.002-0.002 5.826
+      6.198v0.137l-9.272 6.716c-0.299 0.246-0.489 0.617-0.489 1.032 0 0.736
+      0.597 1.333 1.333 1.333 0.268 0 0.517-0.079 0.726-0.215l-0.005 0.003
+      10.283-7.385c0.265-0.163 0.482-0.382 0.638-0.641l0.005-0.009zM29.972
+      4.721c0.012-0.001 0.026-0.001 0.041-0.001 0.55 0 0.995 0.446 0.995 0.995 0
+      0.107-0.017 0.21-0.048 0.306l0.002-0.007-4.572 19.972c-0.187 0.724-0.817
+      1.256-1.577 1.293l-0.004 0h-22.781c-0.012 0.001-0.026 0.001-0.041
+      0.001-0.55 0-0.995-0.446-0.995-0.995 0-0.107 0.017-0.21 0.048-0.306l-0.002
+      0.007 4.572-19.972c0.187-0.724 0.817-1.256 1.577-1.293l0.004-0z"></path>
+      </g></svg>
+  - type: local
+    name: ' iPython'
+    icon: >-
+      <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" fill="#bababa"
+      stroke="#bababa"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+      id="SVGRepo_tracerCarrier" stroke-linecap="round"
+      stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>python
+      [#127]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g
+      id="Page-1" stroke="none" stroke-width="1" fill="none"
+      fill-rule="evenodd"> <g id="Dribbble-Light-Preview"
+      transform="translate(-340.000000, -7599.000000)" fill="#bababa"> <g
+      id="icons" transform="translate(56.000000, 160.000000)"> <path
+      d="M296.744,7457.45798 C296.262,7457.45798 295.872,7457.06594
+      295.872,7456.58142 C295.872,7456.0969 296.262,7455.70587
+      296.744,7455.70587 C297.226,7455.70587 297.616,7456.0969
+      297.616,7456.58142 C297.616,7457.06594 297.226,7457.45798
+      296.744,7457.45798 M294.072,7459 C299.15,7459 298.833,7456.78649
+      298.833,7456.78649 L298.827,7454.49357 L293.982,7454.49357
+      L293.982,7453.80499 L300.751,7453.80499 C300.751,7453.80499 304,7454.17591
+      304,7449.02614 C304,7443.87636 301.165,7444.0583 301.165,7444.0583
+      L299.472,7444.0583 L299.472,7446.44873 C299.472,7446.44873
+      299.563,7449.29855 296.682,7449.29855 L291.876,7449.29855
+      C291.876,7449.29855 289.176,7449.25533 289.176,7451.9222
+      L289.176,7456.33112 C289.176,7456.33112 288.766,7459 294.072,7459
+      M291.257,7440.54202 C291.739,7440.54202 292.128,7440.93406
+      292.128,7441.41858 C292.128,7441.9031 291.739,7442.29413
+      291.257,7442.29413 C290.775,7442.29413 290.385,7441.9031
+      290.385,7441.41858 C290.385,7440.93406 290.775,7440.54202
+      291.257,7440.54202 M293.928,7439 C288.851,7439 289.168,7441.21351
+      289.168,7441.21351 L289.174,7443.50643 L294.019,7443.50643
+      L294.019,7444.19501 L287.249,7444.19501 C287.249,7444.19501 284,7443.82409
+      284,7448.97386 C284,7454.12364 286.836,7453.9417 286.836,7453.9417
+      L288.528,7453.9417 L288.528,7451.55127 C288.528,7451.55127
+      288.437,7448.70145 291.319,7448.70145 L296.124,7448.70145
+      C296.124,7448.70145 298.824,7448.74467 298.824,7446.0778
+      L298.824,7441.66888 C298.824,7441.66888 299.234,7439 293.928,7439"
+      id="python-[#127]"> </path> </g> </g> </g> </g></svg>
+    options:
+      command: ipython.exe
+      env:
+        WT_SESSION: '0'
+      cwd: C:\Users\salai\.config
+      args: []
+    id: local:custom:iPython:3090988a-ffd1-4367-ba48-1f1b5f4ebfa9
+    disableDynamicTitle: true
+  - name: SSH
+    icon: >-
+      <svg viewBox="0 0 8.4666669 8.4666669" id="svg8" version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns:svg="http://www.w3.org/2000/svg" fill="#000000"><g
+      id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier"
+      stroke-linecap="round" stroke-linejoin="round"></g><g
+      id="SVGRepo_iconCarrier"> <defs id="defs2"></defs> <g id="layer1"
+      transform="translate(0,-288.53332)"> <path d="M 2,3 C 1.4477381,3.0000552
+      1.0000552,3.4477381 1,4 v 20 c 5.52e-5,0.552262 0.4477381,0.999945 1,1 h
+      28 c 0.552262,-5.5e-5 0.999945,-0.447738 1,-1 V 4 C 30.999945,3.4477381
+      30.552262,3.0000552 30,3 Z m 14,18 c 0.552285,0 1,0.447715 1,1 0,0.552285
+      -0.447715,1 -1,1 -0.552285,0 -1,-0.447715 -1,-1 0,-0.552285 0.447715,-1
+      1,-1 z m -1,5 v 1.001953 h -3.099609 c -1.334635,0.06901 -1.23112,2.070963
+      0.103515,2.001953 h 7.994141 c 1.334635,0 1.334635,-2.001953 0,-2.001953 H
+      17 V 26 Z" id="rect959"
+      style="color:#bababa;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#bababa;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#bababa;solid-opacity:1;vector-effect:none;fill:#bababa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke
+      fill
+      markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+      transform="matrix(0.26458333,0,0,0.26458333,0,288.53332)"></path> </g>
+      </g></svg>
+    options:
+      host: 192.168.56.101
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      user: osboxes
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    id: ssh:custom:VM-Lab:89793e6f-4f57-460a-836b-918179a3ef92
+    type: ssh
+  - type: local
+    name: CMD (clink)
+    icon: >-
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g
+      id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier"
+      stroke-linecap="round" stroke-linejoin="round"></g><g
+      id="SVGRepo_iconCarrier"> <path d="M4 4H11.5V11.5H4V4ZM12.5
+      4H20V11.5H12.5V4ZM4 12.5H11.5V20H4V12.5ZM12.5 12.5H20V20H12.5V12.5Z"
+      fill="#bababa"></path> </g></svg>
+    options:
+      command: cmd.exe
+      args:
+        - /k
+        - >-
+          C:\Users\salai\AppData\Local\Programs\Tabby\resources\extras\clink\clink_x64.exe
+        - inject
+      env:
+        WT_SESSION: '0'
+    id: local:custom:CMD-(clink):f031c5b7-07dd-42e7-b8f1-c63c4ee0ad2f
+  - type: local
+    name: Git Bash
+    icon: >-
+      <svg fill="#bababa" viewBox="0 0 32 32" version="1.1"
+      xmlns="http://www.w3.org/2000/svg" stroke="#bababa"><g
+      id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier"
+      stroke-linecap="round" stroke-linejoin="round"></g><g
+      id="SVGRepo_iconCarrier"> <title>git</title> <path d="M30.428
+      14.663l-13.095-13.094c-0.35-0.349-0.833-0.565-1.367-0.565s-1.017
+      0.216-1.367 0.565l0-0-2.713 2.718 3.449 3.449c0.22-0.077 0.473-0.121
+      0.737-0.121 1.269 0 2.297 1.028 2.297 2.297 0 0.269-0.046 0.526-0.131
+      0.766l0.005-0.016 3.322 3.324c0.222-0.079 0.479-0.125 0.746-0.125 1.268 0
+      2.296 1.028 2.296 2.296s-1.028 2.296-2.296 2.296c-1.268
+      0-2.296-1.028-2.296-2.296 0-0.313 0.063-0.611 0.176-0.883l-0.006
+      0.015-3.11-3.094v8.154c0.764 0.385 1.279 1.163 1.279 2.061 0 1.27-1.030
+      2.3-2.3 2.3s-2.3-1.030-2.3-2.3c0-0.634 0.256-1.207 0.671-1.623l-0
+      0c0.211-0.211 0.462-0.382
+      0.741-0.502l0.015-0.006v-8.234c-0.842-0.354-1.422-1.173-1.422-2.126 0-0.32
+      0.065-0.624 0.183-0.901l-0.006 0.015-3.389-3.405-8.98 8.974c-0.348
+      0.351-0.562 0.834-0.562 1.368s0.215 1.017 0.563 1.368l13.096 13.092c0.349
+      0.35 0.832 0.566 1.366 0.566s1.016-0.216
+      1.366-0.566l13.034-13.034c0.35-0.349 0.567-0.833
+      0.567-1.366s-0.217-1.017-0.567-1.366l-0-0z"></path> </g></svg>
+    options:
+      command: C:\Program Files\Git\bin\bash.exe
+      args:
+        - '--login'
+        - '-i'
+      env:
+        WT_SESSION: 0
+      cwd: C:\Users\salai\.config\nvim
+    id: local:custom:Git-Bash:fb38f71a-7c57-49f3-ba90-0bd52dedd09c
+language: en-US
+enableAnalytics: false
+enableWelcomeTab: false
+pluginBlacklist: []
